@@ -220,3 +220,36 @@ main i{
 .cloud-link.big{
     font-size: 25px;
 }
+
+footer{
+    height: 100px;
+    width: 1400px;
+    line-height: 1.5;
+    padding: 40px;
+    margin: auto;
+    color: grey;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.copyright{
+    width: 50%;
+    float: left;
+}
+
+.contacts{
+    width: 50%;
+    float: left;
+}
+
+.contacts i{
+    font-size: 30px;
+    float: right;
+}
