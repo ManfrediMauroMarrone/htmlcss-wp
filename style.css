@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+}
+
 .container{
     width: 1400px;
     height: 1300px;
-    background-color: red;
     margin: auto;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
@@ -18,9 +21,7 @@
     display: table;
     clear: both;
 }
-.main-section{
-    margin-top: 10px;
-}
+
 
 header{
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
@@ -28,16 +29,13 @@ header{
     text-align: center;
     color: white;
     padding: 50px 0;
+    text-transform: uppercase;
 }
 
 header h1{
-    text-transform: uppercase;
     font-size: 50px;
+    margin-bottom: 10px;
 
-}
-
-header h2{
-    text-transform: uppercase;
 }
 
 nav{
@@ -63,10 +61,14 @@ nav li:hover{
 
 
 
-a{
+nav a{
     text-decoration: none;
     line-height: 50px;
     color: white;
+}
+
+.main-section{
+    margin-top: 10px;
 }
 
 aside{
@@ -74,6 +76,35 @@ aside{
     width: 20%;
     background-color: pink;
     float: left;
+}
+
+#box{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+#box h4{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#pages-list{
+    list-style-type: none;
+}
+
+
+#pages-list a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #99cc33;
+
+}
+
+#pages-list li:hover{
+    background: rgba(0, 0, 0, 0.4);
 }
 
 main{
