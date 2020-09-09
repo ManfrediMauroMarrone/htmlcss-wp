@@ -10,7 +10,7 @@ body{
 
 .container{
     width: 1400px;
-    height: 1300px;
+    height: 100vh;
     margin: auto;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
@@ -70,7 +70,7 @@ nav a{
 .main-section{
     margin-top: 10px;
 }
-
+                        /* inizio aside destra */
 aside{
     width: 25%;
     float: left;
@@ -108,19 +108,74 @@ aside{
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
 }
-
+                        /* Inizio main */
 main{
-    height: 700px;
     width: calc(50% - 20px);
     margin: 0 10px 0 10px;
-    background: red;
+    background: white;
+    float: left;
+}
+.section-header{
+    padding: 20px;
+    text-align: left;
+}
+
+#title-main{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+main h4{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+main a{
+        color: #99cc33;
+        text-decoration: none;
+}
+
+main i{
+    margin-right: 3px;
+}
+
+.img{
+    height: 300px;
+    background-image: url(https://organicthemes.com/demo/natural-lite/files/2016/01/featured-09.jpg);
+    background-size: cover;
+}
+
+.article{
+    padding: 20px;
+    text-align: left;
+    line-height: 2;
+}
+
+.category-tags{
+    padding: 5px;
+    margin: 60px 30px;
+}
+
+.category-tags::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.category{
     float: left;
 }
 
+.tags{
+    margin-left: 10px;
+    float: left;
+}
+
+                        /* inizio aside destra */
 #aside-destra{
     height: 400px;
     width: 20%;
-    /* background-color: pink; */
     float: left;
 
 }
